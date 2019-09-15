@@ -69,23 +69,37 @@
 	</div>
 	</div>
 	</section>
-	<section class="py-6 bg-white"> 
-	<div class="container">
-    	<div class="row set-row-pad">
-    		<div class="col-lg-6 col-md-6 col-sm-12">
-            	<h2 class="mb-5">CONTACT US<hr/></h2>        		
-                <div>
-            	    <h4><strong>Call: </strong>+91 7982446512</h4>
-                    <h4><strong>Call: </strong>+91 9810332313</h4>
-                    <h4><strong>Email: </strong>info@moghaacademy.com</h4>
-                </div>
-           	</div>	
-            <div class="col-lg-6 col-md-6 col-sm-12">
-           		<h2 class="mb-5">Our Location<hr/></h2>
-            	<div class="mapouter"><div class="gmap_canvas"><iframe width="100%" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=mogha%20academy&t=&z=17&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe></div><style>.mapouter{position:relative;text-align:right;height:500px;width:100%;}.gmap_canvas{overflow:hidden;background:none!important;height:500px;width:100%;}</style></div><br /> </div>
- 		</div>
- 	</div>
- 	</section>
+	
+	<!-- Start contact-info Area -->
+	<section class="contact-info-area section-gap">
+		<div class="container">
+			<div class="row">
+				<div class="single-info col-lg-3 col-md-6">
+					<h4>Visit Our Office</h4>
+					<p>RZ-14D, Syndicate Enclave, New Delhi-110045</p>
+				</div>
+				<div class="single-info col-lg-3 col-md-6">
+					<h4>Let's call us</h4>
+					<p>
+						Phone 01: +91 8368131290 <br> Phone 02: +91 8800549621
+					</p>
+				</div>
+				<div class="single-info col-lg-3 col-md-6">
+					<h4>Let's Email Us</h4>
+					<p>
+						malik.deepanshul27@gmail.com
+					</p>
+				</div>
+				<div class="single-info col-lg-3 col-md-6">
+					<h4>Customer Support</h4>
+					<p>
+						support@avstourandtravel.com
+					</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- End contact-info Area -->
   </body>
 </html>
 	

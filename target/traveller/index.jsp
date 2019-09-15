@@ -114,7 +114,7 @@
 			<div class="row d-flex justify-content-center">
 				<div class="col-md-6 pb-80 header-text">
 					<h1>Best Popular Places</h1>
-					<p>Here are some cherry picked places for you which are 
+					<p>Here are some cherry picked places for you which are best to travel around
 					</p>
 				</div>
 			</div>
@@ -126,7 +126,7 @@
 							class="content-image img-fluid d-block mx-auto" src="img/p1.jpg"
 							alt="">
 							<div class="content-details fadeIn-bottom">
-								<h3 class="content-title">Resort Holiday package</h3>
+								<h3 class="content-title">Manali</h3>
 							</div>
 						</a>
 					</div>
@@ -138,7 +138,7 @@
 							class="content-image img-fluid d-block mx-auto" src="img/p2.jpg"
 							alt="">
 							<div class="content-details fadeIn-bottom">
-								<h3 class="content-title">Resort Holiday package</h3>
+								<h3 class="content-title">Lansdowne</h3>
 							</div>
 						</a>
 					</div>
@@ -147,10 +147,10 @@
 					<div class="content">
 						<a href="#" target="_blank">
 							<div class="content-overlay"></div> <img
-							class="content-image img-fluid d-block mx-auto" src="img/p3.jpg"
+							class="content-image img-fluid d-block mx-auto" src="img/m3.jpg"
 							alt="">
 							<div class="content-details fadeIn-bottom">
-								<h3 class="content-title">Resort Holiday package</h3>
+								<h3 class="content-title">Leh/Ladakh</h3>
 							</div>
 						</a>
 					</div>
@@ -162,7 +162,7 @@
 							class="content-image img-fluid d-block mx-auto" src="img/p4.jpg"
 							alt="">
 							<div class="content-details fadeIn-bottom">
-								<h3 class="content-title">Resort Holiday package</h3>
+								<h3 class="content-title">Spiti Valley</h3>
 							</div>
 						</a>
 					</div>
@@ -174,7 +174,7 @@
 							class="content-image img-fluid d-block mx-auto" src="img/p5.jpg"
 							alt="">
 							<div class="content-details fadeIn-bottom">
-								<h3 class="content-title">Resort Holiday package</h3>
+								<h3 class="content-title">Goa</h3>
 							</div>
 						</a>
 					</div>
@@ -183,10 +183,10 @@
 					<div class="content">
 						<a href="#" target="_blank">
 							<div class="content-overlay"></div> <img
-							class="content-image img-fluid d-block mx-auto" src="img/p3.jpg"
+							class="content-image img-fluid d-block mx-auto" src="img/resort.jpg"
 							alt="">
 							<div class="content-details fadeIn-bottom">
-								<h3 class="content-title">Resort Holiday package</h3>
+								<h3 class="content-title">Kerala</h3>
 							</div>
 						</a>
 					</div>
@@ -195,102 +195,65 @@
 		</div>
 	</section>
 	<!-- End packages Area -->
-
 	<!-- Start blog Area -->
-	<section class="blog-area section-gap">
+	<section class="feature-area section-gap">
 		<div class="container">
 			<div class="row justify-content-center">
 				<div class="col-md-8 pb-30 header-text">
-					<h1>Our Recent Blogs</h1>
-					<p>
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-						eiusmod tempor incididunt ut <br> labore et dolore magna
-						aliqua.
-					</p>
+					<h1>Importance of Educational Trips : </h1>
 				</div>
-			</div>
-			<div class="row">
-				<div class="single-blog col-lg-4 col-md-4">
-
-					<img class="f-img img-fluid mx-auto" src="img/b1.jpg" alt="">
-					<h4>
-						<a href="#">Summer ware are coming</a>
-					</h4>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-						sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+			</div>	
+					<p class="left-content">
+						Until a few years ago, school trips were monotonously related only to historical or environmental observations. The 'Teaching outside the Box' concept
+						 paved the path for service learning trips, where students can proactively experience cultural elements, learn community and society structures, 
+						 and develop a deeper understanding of their interest fields and evolve themselves.
 					</p>
-					<div
-						class="bottom d-flex justify-content-between align-items-center flex-wrap">
-						<div>
-							<img class="img-fluid" src="img/user.jpg" alt=""> <a
-								href="#"><span>Mark Wiens</span></a>
+					
+					<h5>Here is why you need to think of going on an educational trip:</h5><br><br><br>
+					<div class="row">
+						<div class="sigle-feature col-lg-4 col-md-6">
+							<span class="lnr lnr-pushpin"></span>
+							<h4>Effective learning from real-world experience</h4>
+							<p>Practical realisation of concepts is the most effective means of learning.</p>
 						</div>
-						<div class="meta">
-							13th Dec <span class="lnr lnr-heart"></span> 15 <span
-								class="lnr lnr-bubble"></span> 04
+						<div class="sigle-feature col-lg-4 col-md-6">
+							<span class="lnr lnr-pushpin"></span>
+							<h4>Better chance for exchange of ideas</h4>
+							<p>An educational trip provides the perfect informal set-up for vigorous group discussions.</p>
 						</div>
-					</div>
-				</div>
-				<div class="single-blog col-lg-4 col-md-4">
-					<img class="f-img img-fluid mx-auto" src="img/b2.jpg" alt="">
-					<h4>
-						<a href="#">Summer ware are coming</a>
-					</h4>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-						sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-					</p>
-					<div
-						class="bottom d-flex justify-content-between align-items-center flex-wrap">
-						<div>
-							<img class="img-fluid" src="img/user.jpg" alt=""> <a
-								href="#"><span>Mark Wiens</span></a>
+						<div class="sigle-feature col-lg-4 col-md-6">
+							<span class="lnr lnr-pushpin"></span>
+							<h4>Personal development</h4>
+							<p>Students get an opportunity to explore their capabilities on their own.</p>
 						</div>
-						<div class="meta">
-							13th Dec <span class="lnr lnr-heart"></span> 15 <span
-								class="lnr lnr-bubble"></span> 04
+						<div class="col-lg-2"></div>
+						<div class="sigle-feature col-lg-4 col-md-6">
+							<span class="lnr lnr-pushpin"></span>
+							<h4>Enhanced perspective of world around</h4>
+							<p>it ingeniously develops an understanding of diverse social phenomenon around the world.</p>
 						</div>
-					</div>
-				</div>
-				<div class="single-blog col-lg-4 col-md-4">
-					<img class="f-img img-fluid mx-auto" src="img/b3.jpg" alt="">
-					<h4>
-						<a href="#">Summer ware are coming</a>
-					</h4>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-						sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-					</p>
-					<div
-						class="bottom d-flex justify-content-between align-items-center flex-wrap">
-						<div>
-							<img class="img-fluid" src="img/user.jpg" alt=""> <a
-								href="#"><span>Mark Wiens</span></a>
+						<div class="sigle-feature col-lg-4 col-md-6">
+							<span class="lnr lnr-pushpin"></span>
+							<h4>Better networking skills</h4>
+							<p>Interactions with the natives and other students during trip develop the social and intellectual skills of the students.</p>
 						</div>
-						<div class="meta">
-							13th Dec <span class="lnr lnr-heart"></span> 15 <span
-								class="lnr lnr-bubble"></span> 04
-						</div>
-					</div>
-				</div>
 			</div>
 		</div>
 	</section>
 	<!-- End blog Area -->
 
 	<!-- Start about Area -->
-	<section class="about-area">
+	<section class="about-area" style="background-color:black">
 		<div class="container-fluid">
 			<div class="row d-flex justify-content-end align-items-center">
 				<div class="col-lg-6 col-md-12 about-left">
 					<h1>
-						Did not find your Package? <br> Feel free to ask us. <br>
-						We‘ll make it for you
+						Did not find your Location? <br> Feel free to ask us. <br>
+						We'll make it for you
 					</h1>
-					<p>inappropriate behavior is often laughed off as “boys will be
-						boys,”women face higher conduct standards especially in the
-						workplace. That’s why it’s crucial that, as women, our behavior on
-						the job is beyond reproach. inappropriate behavior is often
-						laughed.</p>
-					<button class="btn btn-black">Make Package of your own</button>
+					<p>We believe in "Service with quality & Smile". We use the best system for operations which adds "Valued Efficiency" to our teamwork thus 
+					making hospitality not a business affair but a "Commitment & Pledge" towards client's satisfaction.</p>
+					<a href="contact" class="btn btn-black">Contact Us</a>
 				</div>
 				<div class="col-lg-6 col-md-12 about-right no-padding">
 					<img class="img-fluid" src="img/c1.jpg" alt="">
@@ -306,28 +269,24 @@
 			<div class="row">
 				<div class="single-info col-lg-3 col-md-6">
 					<h4>Visit Our Office</h4>
-					<p>56/8, bir uttam qazi nuruzzaman road, west panthapath,
-						kalabagan, Dhanmondi, Dhaka - 1205</p>
+					<p>RZ-14D, Syndicate Enclave, New Delhi-110045</p>
 				</div>
 				<div class="single-info col-lg-3 col-md-6">
-					<h4>Let’s call us</h4>
+					<h4>Let's call us</h4>
 					<p>
-						Phone 01: 012-6532-568-9746 <br> Phone 02: 012-6532-568-9748
-						<br> FAX: 02-6532-568-746
+						Phone 01: +91 8368131290 <br> Phone 02: +91 8800549621
 					</p>
 				</div>
 				<div class="single-info col-lg-3 col-md-6">
-					<h4>Let’s Email Us</h4>
+					<h4>Let's Email Us</h4>
 					<p>
-						hello@colorlib.com <br> mainhelpinfo@colorlib.com <br>
-						infohelp@colorlib.com
+						malik.deepanshul27@gmail.com
 					</p>
 				</div>
 				<div class="single-info col-lg-3 col-md-6">
 					<h4>Customer Support</h4>
 					<p>
-						support@colorlib.com <br> emergencysupp@colorlib.com <br>
-						extremesupp@colorlib.com
+						support@avstourandtravel.com
 					</p>
 				</div>
 			</div>
@@ -343,7 +302,7 @@
 					<div style="width: 100%; height: 545px;" id="map"></div>
 				</div>
 				<div class="col-lg-4 col-md-12 pt-100 pb-100">
-					<form class="form-area" id="myForm" action="mail.php" method="post"
+					<form class="form-area" id="myForm" action="contactviamail" method="post"
 						class="contact-form text-right">
 						<input name="fname" placeholder="Enter your name"
 							onfocus="this.placeholder = ''"
@@ -355,7 +314,7 @@
 							onblur="this.placeholder = 'Enter email address'"
 							class="common-input mt-10" required="" type="email">
 						<textarea class="common-textarea mt-10" name="message"
-							placeholder="Messege" onfocus="this.placeholder = ''"
+							placeholder="Message" onfocus="this.placeholder = ''"
 							onblur="this.placeholder = 'Messege'" required=""></textarea>
 						<button class="primary-btn mt-20">
 							Send Message<span class="lnr lnr-arrow-right"></span>
@@ -385,8 +344,8 @@
 						<p>Stay update with our latest</p>
 						<div class="d-flex flex-row" id="mc_embed_signup">
 							<form target="_blank" novalidate="true"
-								action="https://spondonit.us12.list-manage.com/subscribe/post?u=1462626880ade1ac87bd9c93a&amp;id=92a4423d01"
-								method="get" class="subscription relative">
+								action="https://gmail.us4.list-manage.com/subscribe/post?u=e07fd6ed37fa1c1355176a21a&amp;id=b2525312b1"
+								method="post" class="subscription relative">
 								<input name="EMAIL" placeholder="Enter Email"
 									onfocus="this.placeholder = ''"
 									onblur="this.placeholder = 'Enter Email '" required=""

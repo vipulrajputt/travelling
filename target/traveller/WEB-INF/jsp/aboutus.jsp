@@ -12,48 +12,71 @@
 		<div class="container">
 			<div class="row mb-5">
 				<div class="col-md-8">
-					<h2>About Us</h2>
+					<br><br><h2>About Us</h2>
 				</div>
-				<br><br><br><br>
-				<p class="text-muted">
-					<span class="subtitle text-primary">Mogha academy</span> is a coaching Institute located in Uttam Nagar, West Delhi. It runs by a group of highly qualified and experienced
-					teachers. It also provides an online educational portal in which students can find their Study material, Assignments and test
-					papers. This is one of the best platforms for students who want to score more in academics. The main aim of Mogha academy is to endow
-					students with common platforms to study online with provided Study material and test series so that may get prepared for board and
-					school Exams.<br><br><span class="subtitle text-primary">Mogha academy</span> has been
-					surging ahead on the success track and has distinguished itself by
-					setting up a new standard in the world of academic education
-					since 2019. It is an Institution of knowledge under the supervision of
-					<span class="subtitle text-primary"> Anil Sir</span> for imparting the quality education for
-					the students of X to XII, CBSE Board Syllabus. Our qualified and experienced teachers conduct coaching
-					classes, at convenient timings.
+				<br><br><br><br><br><br>
+				<p>
+					<span class="subtitle text-primary">AVS Tour and Travel</span> is a tour and travel company located in Janak puri, West Delhi. It is a tour and travel company 
+					who provides travel and tourism services in Delhi and we understands the basic requirement of a Tourist to meet their expectations. Tourist may look executive travels,
+					 we will hear our Client requirements clearly then we will suggest our ideas, which make them happy.
+					 <br><br>
+					 India, a unique diverse country, is a plethora, of colure, heritage, religion, landscape, language & spiritualism all this diversity is deep. Rooted & is boldly
+					  connected by the sheer willingness, of its people to remain one, which is truly inexplicable. A land of Exuberance, Gaiety, Colour, Grandeur, Royalty combined
+					   with an eclectic mix of people, is what makes India .furthermore, the India Travel irresistible!
 					<br><br>
-					Mogha Academy is structured on the principle of consistency and hardwork and believes in scientific approach based on perfect planning and
-					proper guidance. Student’s overall development and splendid success is our prime concern. We provide qualified and experienced teacher for all subjects.
+					To integrate all your travel, we bring to you, the travel agent extraordinaire for service in colleges and schools, in Delhi, India. We at AVS Travel -A travel 
+					agency in India, make each & every travel a memorable experience.
 					<br><br>
-					Our Academy imparts quality education by providing following facilities :</p>
-					<ul class="text-muted">
-					<li>Limited strength of students in each class</li>
-					<li>Unique working schedule</li>
-					<li>Extra classes(for doubts/pending topics)</li>
-					<li>personal attention to every student</li>
-					<li>Experienced and devoted teachers</li>
-					<li>Regular Tests and assignments</li>
-					<li>Provide overall development detail of each student online</li>
-					</ul>
+					we are specialist in educational tour operator serving exclusively the academic sector by arranging educational & fun tours for students of every age all over India and overseas.
+					We are different as we educate and inform students about historical/geographical/cultural values etc. wherever the tour takes place. We also arrange industrial visits & organise
+					 industrial training in different sectors such as Automotive, Electrical, Oil & Gas, and Telecommunication to name a few. We have over many years combined experience 
+					 in providing the utmost in quality, authenticity and service in the group travel industry.
+					 <br><br><span class="subtitle text-primary">AVS Tour and travel</span> excel into customizing domestic & International Tour packages for Groups & Individual Travelers
+					  and cater to worldwide Hotel bookings, airline tickets, Visas & Passport, Travel Insurance, Foreign Exchange, Local & International transfers, Sightseeingâ€™s etc. 
+					  Under Colleges & Schools Groups Travel division we are servicing academics sector by arranging educational and fun Tours for students of every age, all over India and overseas.
+					<br><br>
 			</div>
 		</div>
 		<div class="container">
 			<div class="row mb-5">
-					<h2>Our Mission</h2>
-				<br><br><br>
-				<p class="text-muted">
-					<span class="subtitle text-primary">Our mission </span>is to deliver quality education to each and every student and to ensure his or her success. 
-					We commit ourselves to excellent education and boast of a number of faculty members who are totally devoted and committed so as to build trust and 
-					compassion between teachers and students and ensure that the students achieve what they came for.
-				</p>
+				<div class="col-md-8">
+					<br><br><h2>Importance of Educational Trips : </h2>
+				</div>
+				<section class="feature-area section-gap" id="features">
+				<div class="container">
+					<div class="row">
+						<div class="sigle-feature col-lg-4 col-md-6">
+							<span class="lnr lnr-pushpin"></span>
+							<h4>Effective learning from real-world experience</h4>
+							<p>Practical realisation of concepts is the most effective means of learning.</p>
+						</div>
+						<div class="sigle-feature col-lg-4 col-md-6">
+							<span class="lnr lnr-pushpin"></span>
+							<h4>Better chance for exchange of ideas</h4>
+							<p>An educational trip provides the perfect informal set-up for vigorous group discussions.</p>
+						</div>
+						<div class="sigle-feature col-lg-4 col-md-6">
+							<span class="lnr lnr-pushpin"></span>
+							<h4>Personal development</h4>
+							<p>Students get an opportunity to explore their capabilities on their own.</p>
+						</div>
+						<div class="col-lg-2"></div>
+						<div class="sigle-feature col-lg-4 col-md-6">
+							<span class="lnr lnr-pushpin"></span>
+							<h4>Enhanced perspective of world around</h4>
+							<p>it ingeniously develops an understanding of diverse social phenomenon around the world.</p>
+						</div>
+						<div class="sigle-feature col-lg-4 col-md-6">
+							<span class="lnr lnr-pushpin"></span>
+							<h4>Better networking skills</h4>
+							<p>Interactions with the natives and other students during trip develop the social and intellectual skills of the students.</p>
+						</div>
+					</div>
+				</div>
+			</section>
 			</div>
 		</div>
-		</section>
+	</section>
+	
 </body>
 </html>

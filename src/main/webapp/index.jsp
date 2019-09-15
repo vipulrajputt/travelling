@@ -183,10 +183,10 @@
 					<div class="content">
 						<a href="#" target="_blank">
 							<div class="content-overlay"></div> <img
-							class="content-image img-fluid d-block mx-auto" src="img/p3.jpg"
+							class="content-image img-fluid d-block mx-auto" src="img/resort.jpg"
 							alt="">
 							<div class="content-details fadeIn-bottom">
-								<h3 class="content-title">Resort Holiday package</h3>
+								<h3 class="content-title">Kerala</h3>
 							</div>
 						</a>
 					</div>
@@ -269,28 +269,24 @@
 			<div class="row">
 				<div class="single-info col-lg-3 col-md-6">
 					<h4>Visit Our Office</h4>
-					<p>56/8, bir uttam qazi nuruzzaman road, west panthapath,
-						kalabagan, Dhanmondi, Dhaka - 1205</p>
+					<p>RZ-14D, Syndicate Enclave, New Delhi-110045</p>
 				</div>
 				<div class="single-info col-lg-3 col-md-6">
-					<h4>Let’s call us</h4>
+					<h4>Let's call us</h4>
 					<p>
-						Phone 01: 012-6532-568-9746 <br> Phone 02: 012-6532-568-9748
-						<br> FAX: 02-6532-568-746
+						Phone 01: +91 8368131290 <br> Phone 02: +91 8800549621
 					</p>
 				</div>
 				<div class="single-info col-lg-3 col-md-6">
-					<h4>Let’s Email Us</h4>
+					<h4>Let's Email Us</h4>
 					<p>
-						hello@colorlib.com <br> mainhelpinfo@colorlib.com <br>
-						infohelp@colorlib.com
+						malik.deepanshul27@gmail.com
 					</p>
 				</div>
 				<div class="single-info col-lg-3 col-md-6">
 					<h4>Customer Support</h4>
 					<p>
-						support@colorlib.com <br> emergencysupp@colorlib.com <br>
-						extremesupp@colorlib.com
+						support@avstourandtravel.com
 					</p>
 				</div>
 			</div>
@@ -306,7 +302,7 @@
 					<div style="width: 100%; height: 545px;" id="map"></div>
 				</div>
 				<div class="col-lg-4 col-md-12 pt-100 pb-100">
-					<form class="form-area" id="myForm" action="mail.php" method="post"
+					<form class="form-area" id="myForm" action="contactviamail" method="post"
 						class="contact-form text-right">
 						<input name="fname" placeholder="Enter your name"
 							onfocus="this.placeholder = ''"
@@ -318,7 +314,7 @@
 							onblur="this.placeholder = 'Enter email address'"
 							class="common-input mt-10" required="" type="email">
 						<textarea class="common-textarea mt-10" name="message"
-							placeholder="Messege" onfocus="this.placeholder = ''"
+							placeholder="Message" onfocus="this.placeholder = ''"
 							onblur="this.placeholder = 'Messege'" required=""></textarea>
 						<button class="primary-btn mt-20">
 							Send Message<span class="lnr lnr-arrow-right"></span>
