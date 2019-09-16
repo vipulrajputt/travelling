@@ -1,4 +1,5 @@
-<%@ page language="java" %>
+<%@page language="java" %>
+<%@taglib uri="http://www.springframework.org/tags/form" prefix="form"%>  
 <!DOCTYPE html>
 <html>
 <head>
@@ -33,6 +34,30 @@
 <link rel="stylesheet" href="css/bootstrap.css">
 <link rel="stylesheet" href="css/main.css">
 </head>
+<script>
+  	function myfun(){
+  		if(document.f1.linkc.value == "confirm")
+		{
+		    swal("Success!", "Your Query has been sent", "success");
+		}
+		else
+			{
+			swal("ERROR!", "Please Enter Confirm in Text Box", "error");
+			}
+  		}
+  		function validLogin() // java script function is created
+		{
+			if(document.f1.linkc.value == "confirm")
+			{
+				return true;
+			}
+			else
+			{
+				document.f1.linkc.focus();
+				return false;
+			}
+		}
+	</script>		
 <body>
 
 	<!-- Start Header Area -->
@@ -280,7 +305,7 @@
 				<div class="single-info col-lg-3 col-md-6">
 					<h4>Let's Email Us</h4>
 					<p>
-						malik.deepanshul27@gmail.com
+						malikdeepanshul27@gmail.com
 					</p>
 				</div>
 				<div class="single-info col-lg-3 col-md-6">
@@ -299,27 +324,22 @@
 		<div class="container-fluid">
 			<div class="row align-items-center d-flex justify-content-start">
 				<div class="col-lg-6 col-md-12 contact-left no-padding">
-					<div style="width: 100%; height: 545px;" id="map"></div>
+					<div style="width: 100%; height: 545px;"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14010.755006408697!2d77.08119473197881!3d28.60911276883077!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d1b4d795205cf%3A0xcb8faef9881bc4dd!2sDabri%2C%20New%20Delhi%2C%20Delhi!5e0!3m2!1sen!2sin!4v1568657849009!5m2!1sen!2sin" width="100%" height="545" frameborder="0" style="border:0;" allowfullscreen=""></iframe></div>
 				</div>
 				<div class="col-lg-4 col-md-12 pt-100 pb-100">
-					<form class="form-area" id="myForm" action="contactviamail" method="post"
-						class="contact-form text-right">
-						<input name="fname" placeholder="Enter your name"
-							onfocus="this.placeholder = ''"
-							onblur="this.placeholder = 'Enter your name'"
-							class="common-input mt-10" required="" type="text"> <input
-							name="email" placeholder="Enter email address"
-							pattern="[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{1,63}$"
-							onfocus="this.placeholder = ''"
-							onblur="this.placeholder = 'Enter email address'"
-							class="common-input mt-10" required="" type="email">
-						<textarea class="common-textarea mt-10" name="message"
-							placeholder="Message" onfocus="this.placeholder = ''"
-							onblur="this.placeholder = 'Messege'" required=""></textarea>
-						<button class="primary-btn mt-20">
-							Send Message<span class="lnr lnr-arrow-right"></span>
-						</button>
-						<div class="alert-msg"></div>
+				<% String printit = request.getParameter("filesuccess");
+                   	if(printit==null)
+                   	{
+                   		printit="CONTACT US";
+                   	}
+                 %>
+  					<form name="f1" class="form-area" action="contactviamail" method="post" class="contact-form text-right" onsubmit="return validLogin()">
+						<h4 style="color:green"><span class="lnr lnr-location"></span> &nbsp;&nbsp;&nbsp;<%= printit %></h4><br>
+						<input name="name" placeholder="Enter your name" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter your name'"	class="common-input mt-10" required="required" type="text"> 
+						<input name="email" placeholder="Enter email address" pattern="[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{1,63}$" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter email address'" class="common-input mt-10" required="required" type="email">
+						<textarea class="common-textarea mt-10" name="message" placeholder="Message" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Messege'" required="required"></textarea>
+						<input type="text" class="common-input mt-10" autocomplete="off" name="linkc"  placeholder="Please write confirm in this box" />
+						<button type="submit" class="primary-btn mt-20" onclick="myfun()">Send Message<span class="lnr lnr-arrow-right"></span></button>
 					</form>
 				</div>
 			</div>
@@ -334,8 +354,9 @@
 				<div class="col-lg-3  col-md-6 col-sm-6">
 					<div class="single-footer-widget">
 						<h6>About Us</h6>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-							sed do eiusmod tempor incididunt ut labore dolore magna aliqua.</p>
+						<p><span class="subtitle text-primary">AVS Tour and Travel</span> is a tour and travel company located in Janak puri, West Delhi. It is a tour and travel company 
+					who provides travel and tourism services in Delhi and we understands the basic requirement of a Tourist to meet their expectations. Tourist may look executive travels,
+					 we will hear our Client requirements clearly then we will suggest our ideas, which make them happy.</p>
 					</div>
 				</div>
 				<div class="col-lg-3  col-md-6 col-sm-6">
@@ -348,7 +369,7 @@
 								method="post" class="subscription relative">
 								<input name="EMAIL" placeholder="Enter Email"
 									onfocus="this.placeholder = ''"
-									onblur="this.placeholder = 'Enter Email '" required=""
+									onblur="this.placeholder = 'Enter Email '" required="required"
 									type="email">
 								<div style="position: absolute; left: -5000px;">
 									<input name="b_36c4fd991d266f23781ded980_aefe40901a"
@@ -382,10 +403,10 @@
 						<h6>Follow Us</h6>
 						<p>Let us be social</p>
 						<div class="footer-social d-flex align-items-center">
-							<a href="#"><i class="fa fa-facebook"></i></a> <a href="#"><i
-								class="fa fa-twitter"></i></a> <a href="#"><i
-								class="fa fa-dribbble"></i></a> <a href="#"><i
-								class="fa fa-behance"></i></a>
+							<a href="#"><i class="fa fa-facebook"></i></a> 
+							<a href="#"><i class="fa fa-twitter"></i></a> 
+							<a href="#"><i class="fa fa-dribbble"></i></a> 
+							<a href="#"><i class="fa fa-behance"></i></a>
 						</div>
 					</div>
 				</div>
@@ -393,7 +414,6 @@
 			<div
 				class="footer-bottom d-flex justify-content-center align-items-center flex-wrap">
 				<p class="footer-text m-0">
-					<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
 					Copyright &copy;
 					<script>
 						document.write(new Date().getFullYear());
@@ -423,5 +443,6 @@
 	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 	<script src="js/jquery.magnific-popup.min.js"></script>
 	<script src="js/main.js"></script>
+	<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 </body>
 </html>

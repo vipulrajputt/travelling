@@ -46,13 +46,19 @@
       <div class="container">
 	<div class="row set-row-pad">
 		<div class="col-lg-8 col-md-8 col-sm-8 offset-lg-2">
-		<h4 style="color:green">${filesuccess}</h4>
+		<% String printit = request.getParameter("filesuccess");
+                   	if(printit==null)
+                   	{
+                   		printit="CONTACT US";
+                   	}
+                 %>
+		<h4 style="color:green"><span class="lnr lnr-location"></span> &nbsp;&nbsp;&nbsp;${filesuccess}</h4><br>
 			<form name="f1" action="contactviamail1" method="post" onsubmit="return validLogin()">
                         <div class="form-group">
                             <input type="text" class="form-control " name="name" required="required" placeholder="Your Name" />
                         </div>
                         <div class="form-group">
-                            <input type="text" class="form-control " name="Email" required="required"  placeholder="Your Email" />
+                            <input type="text" class="form-control " name="email" required="required"  placeholder="Your Email" />
                         </div>
                         <div class="form-group">
                             <textarea required="required" name="message" class="form-control" style="min-height: 150px;" placeholder="ASK YOU QUERY!!"></textarea>
@@ -87,7 +93,7 @@
 				<div class="single-info col-lg-3 col-md-6">
 					<h4>Let's Email Us</h4>
 					<p>
-						malik.deepanshul27@gmail.com
+						malikdeepanshul27@gmail.com
 					</p>
 				</div>
 				<div class="single-info col-lg-3 col-md-6">
@@ -100,6 +106,7 @@
 		</div>
 	</section>
 	<!-- End contact-info Area -->
+	<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
   </body>
 </html>
 	
