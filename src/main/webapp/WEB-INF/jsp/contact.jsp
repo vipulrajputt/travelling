@@ -69,11 +69,10 @@
                         <div class="form-group">
                             <button type="submit" class="btn btn-info btn-block btn-lg sweet-3" onclick="myfun()">SUBMIT REQUEST</button>
                         </div>
-                        
                     </form>
+				</div>
+			</div>
 		</div>
-	</div>
-	</div>
 	</section>
 	
 	<!-- Start contact-info Area -->
@@ -105,7 +104,6 @@
 			</div>
 		</div>
 	</section>
-	<!-- End contact-info Area -->
 	<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
   </body>
 </html>
